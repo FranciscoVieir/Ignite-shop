@@ -2,7 +2,6 @@ import { styled } from "@/styles";
 
 export const HomeContainer = styled('main', {
   display: 'flex',
-  gap: '3rem',
   width: '100%',
   maxWidth: 'calc(100vw - ((100vw - 1180px) / 2))',
   marginLeft: 'auto',
@@ -11,7 +10,6 @@ export const HomeContainer = styled('main', {
 
 export const Product = styled('div', {
   position: 'relative',
-  padding: '0.25rem',
   cursor: 'pointer',
   borderRadius: 8,
   background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
