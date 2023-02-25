@@ -2,16 +2,17 @@ import { globalStyles } from '@/styles/global'
 import { Container, Header } from '@/styles/pages/app'
 import type { AppProps } from 'next/app'
 import logoImg from '../assets/logo.svg'
+import Image from 'next/image';
 
 globalStyles()
 
-console.log(logoImg)
+// console.log(logoImg)
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Container>
       <Header>
-        <img src={logoImg.src} alt="" />
+        <Image src={logoImg} alt="" />
       </Header>
 
       <Component {...pageProps} />
